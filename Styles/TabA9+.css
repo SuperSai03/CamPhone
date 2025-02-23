@@ -1,0 +1,176 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,1));
+}
+#new{
+  font-size: 17px;
+}
+#slide{
+  border-radius: 20px;
+}
+img{
+  border-radius: 20px;
+}
+#slideIcon{
+  background-color: rgba(225,225,225,1);
+  border-radius: 20px;
+}
+
+#carouselExample{
+  position:relative;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#spec{
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 30px;
+}
+#spec :hover{
+  cursor: pointer;
+}
+#spec:active{
+  border: 2px solid hsl(215, 90%, 55%);
+}
+#display{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+
+.radio{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.radioDetail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 5px 15px;
+}
+.radioInput{
+  display: none;
+}
+
+.radioLabel {
+  cursor: pointer;
+  transition: background 0.1s;
+  background-color: white;
+  border: 2px solid gray ;
+  border-radius: 10px;
+}
+
+.radioLabel:not(:last-of-type){
+  border:2px solid blue
+}
+
+.radioInput:checked + .radioLabel {
+  color: black;
+  border: 2px solid blue;
+}
+
+.radioColor{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.radioColor ul{
+  list-style: none;
+  padding: 0;
+}
+.radioColor{
+  font-size: 17px;
+}
+
+.colorInput{
+  display: none;
+}
+.colorLabel0{
+  cursor: pointer;
+  transition: background 0.1s;
+  background-color: white;
+  border: 2px solid gray ;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 220px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.colorInput:checked + .colorLabel0 {
+  background-color: #00000085;
+  color: white;
+  border: 2px solid gray;
+}
+
+.storage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.storage ul{
+  list-style: none;
+  padding: 0;
+}
+.storage{
+  font-size: 17px;
+}
+.storageInput{
+  display: none;
+}
+.storageLabel{
+  cursor: pointer;
+  transition: background 0.1s;
+  background-color: white;
+  border: 2px solid gray ;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 220px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.storageInput:checked + .storageLabel {
+  color: black;
+  border: 2px solid blue;
+}
+.storageDetail{
+  display: flex;
+  justify-content: space-between;
+}
+.option{
+  display: flex;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  margin: 0;
+}
+.option:active{
+  border-color: blue;
+}
+
+.boxContainer{
+  display: flex;
+  justify-content: center;
+}
+.inBox{
+  margin-top: -100px;
+  margin-right: 100px;
+}

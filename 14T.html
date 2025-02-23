@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Styles/14TPro.css" />
+    <link rel="stylesheet" href="Styles/Billing.css" />
+    <link rel="icon" href="Images/logo-search-grid-1x-removebg-preview.png" />
+    <title>Xiaomi 14T</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary sticky-top mb-5"
+      id="navBar"
+    >
+      <div class="container">
+        <a class="navbar-brand h5 mb-0" href="index.html">CamPhone</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse h5 mb-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-0 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#homepage"
+                >Xiaomi 14T
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 id="new" class="text-danger">New</h1>
+          <h1 class="h1">Buy Xiaomi 14T</h1>
+          <p class="">From $649.99 or $27.1/mo. for 24 mo.*</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-9 mb-4">
+            <div id="carouselExample" class="carousel slide">
+              <div id="slide" class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="Images/Xiaomi/14Tpro1.webp"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <span
+                  id="slideIcon"
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <span
+                  id="slideIcon"
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="row mt-3">
+              <p class="h3 mb-3">Choose a plan:</p>
+              <div class="col-lg-6">
+                <p id="billingText">BILLING ADDRESS</p>
+                <div class="input">
+                  <label for="name">Full Name:</label>
+                  <input type="text" placeholder="KI Nisai" id="name" />
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    name=""
+                    id="email"
+                    placeholder="exmple@gmail.com"
+                  />
+                  <label for="address">Address:</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="address"
+                    placeholder="Street - Locality"
+                  />
+                  <label for="city">City:</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="city"
+                    placeholder="PhnomPenh"
+                  />
+                  <label for="country">Country:</label>
+                  <input type="text" placeholder="Cambodia" id="country" />
+                  <label for="zipCode">Zip Code:</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="zipCode"
+                    placeholder="120 101"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <p id="billingText">PAYMENT</p>
+                <div class="input">
+                  <label for="name">Card Accepted:</label>
+                  <img id="card" src="Icons/imgcards.png" alt="" />
+                  <label for="nameOnCard">Name On Card:</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="nameOnCard"
+                    placeholder="Mr.Nisai"
+                  />
+                  <label for="number">Credit Card Number:</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="number"
+                    placeholder="**** **** **** ****"
+                  />
+                  <label for="month">Exp. Month:</label>
+                  <input type="text" name="" id="month" placeholder="March" />
+                  <label for="year">Exp. Year:</label>
+                  <input type="text" name="" id="year" placeholder="2050" />
+                  <label for="cvv">CVV:</label>
+                  <input type="password" name="" id="cvv" placeholder="123" />
+                </div>
+              </div>
+
+              <div class="bothBtn">
+                <button class="option" id="buyBtn">
+                  <div><p class="h5 mb-0">Buy</p></div>
+                </button>
+                <button class="option" id="financeBtn">
+                  <div><p class="h5 mb-0">Finance</p></div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="radio mb-3">
+              <input class="radioInput" type="radio" id="radio1" />
+              <label class="radioLabel" for="radio1"
+                ><div class="radioDetail">
+                  <h3>Xiaomi 14T</h3>
+                  <p>6.86-inch display<sup>1</sup></p>
+                  <p id="total">From $649.99 or $27.1/mo. for 24 mo.</p>
+                  <p>📱 Advanced AI<sup>®</sup></p>
+                </div></label
+              >
+            </div>
+
+            <div class="radioColor">
+              <h3>Pick your favorite:</h3>
+              <ul>
+                <li>
+                  <input
+                    class="colorInput"
+                    type="radio"
+                    name="color"
+                    id="Black"
+                  />
+                  <label class="colorLabel0" for="Black">Titan Gray</label>
+                </li>
+                <li>
+                  <input
+                    class="colorInput"
+                    type="radio"
+                    name="color"
+                    id="blue"
+                  />
+                  <label class="colorLabel1" for="blue">Titan Blue</label>
+                </li>
+                <li>
+                  <input
+                    class="colorInput"
+                    type="radio"
+                    name="color"
+                    id="gray"
+                  />
+                  <label class="colorLabel2" for="gray">Titan Black</label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="storage">
+              <h3>Choose your storage:</h3>
+              <ul>
+                <li>
+                  <input
+                    class="storageInput"
+                    type="radio"
+                    name="storage"
+                    id="512"
+                  />
+                  <label class="storageLabel" for="512"
+                    ><div class="storageDetail">
+                      <p class="mb-0"><strong>512GB</strong></p>
+                      <p class="mb-0">For $649.99</p>
+                    </div></label
+                  >
+                </li>
+                <li>
+                  <input
+                    class="storageInput"
+                    type="radio"
+                    name="storage"
+                    id="1"
+                  />
+                  <label class="storageLabel" for="1"
+                    ><div class="storageDetail">
+                      <p class="mb-0"><strong>1TB</strong></p>
+                      <p class="mb-0">For $699.99</p>
+                    </div></label
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Scripts/14TPro.js"></script>
+    <script src="Scripts/Billing.js"></script>
+  </body>
+</html>
